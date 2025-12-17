@@ -5,11 +5,11 @@
 
 # cd ~/git/hakyll
 
-# ~/.local/bin/hakyll-init faesmath
-# stack new faesmath hakyll-template # keep getting problems with this one
+# ~/.local/bin/hakyll-init naivestoked
+# stack new naivestoked hakyll-template # keep getting problems with this one
 
-# cd faesmath
-# git add origin git@github.com:faesmath/faesmath.github.io.git
+# cd naivestoked
+# git add origin git@github.com:naivestoked/naivestoked.github.io.git
 
 #  rm -rf /Users/soutomaiormenc2/.stack/precompiled/x86_64-osx/ghc-8.4.3/2.2.0.1/haddock-library-1.5.0.1\@sha256\:bbfba77cecd79afb92b6f9eb43d08e092000e91638df1f265b1f061c20bd5f3a\,4684/
 # https://github.com/commercialhaskell/stack/issues/4071
@@ -26,14 +26,14 @@ GITDIR=$1
 COPY=$2
 
 # Temporarily store uncommited changes
-cd $GITDIR/faesmath.github.io/src
+cd $GITDIR/naivestoked.github.io/src
 #git stash
 
 # Verify correct branch
 git checkout develop
 if [ $COPY = true ]; then
-    cp -r $GITDIR/faesmath.github.io/src $GITDIR/faesmath.github.io/copy
-    rm -rf $GITDIR/faesmath.github.io/copy/.stack-work
+    cp -r $GITDIR/naivestoked.github.io/src $GITDIR/naivestoked.github.io/copy
+    rm -rf $GITDIR/naivestoked.github.io/copy/.stack-work
 fi
 
 # git stage <modified files here>

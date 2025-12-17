@@ -1,12 +1,12 @@
-name:               faesmath
+name:               naivestoked
 version:            0.1.0.0
 build-type:         Simple
 cabal-version:      >= 1.10
 
 executable site
   main-is:          site.hs
-  build-depends:    base == 4.*
-                  , hakyll == 4.12.*
+  build-depends:    base == 4.20.*
+                  , hakyll == 4.16.*
                   -- , containers == 0.5.*
                   -- , pandoc == 2.*
   ghc-options:      -threaded

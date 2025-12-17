@@ -1,26 +1,15 @@
 ---
 author: caetano souto maior
-title: "MATH 127: Biocalculus with applications in modeling"
+title: "Single Variable Calculus"
 layout: default
 ---
 
-Calculus for the life sciences, Biocalculus for short, is a first course in calculus geared towards researchers biology and biomedicine who have little or no previous exposure the subject. It covers all fundamental topics of single-variable calculus, but with a focus on concepts and application in the natural sciences, as opposed to proofs of theorems or arcane symbol manipulation.
+Welcome to the webpage for Single Variable Calculus a one-semester course. This course begins with a brief [review of pre-calculus](http://naivestoked.github.io/files/diagnostic_tests.pdf) topics like [algebra](https://stewartcalculus.com/data/BIOCALCULUS_CPS/upfiles/bio_reviewofalgebra.pdf),<!-- https://stewartcalculus.com/data/CALCULUS_8E/upfiles/6e_reviewofalgebra.pdf --> [analytic geometry](https://stewartcalculus.com/data/BIOCALCULUS_CPS/upfiles/bio_reviewofanalgeom.pdf)  <!-- https://stewartcalculus.com/data/CALCULUS_8E/upfiles/6e_reviewofanalgeom.pdf-->, and [trigonometric functions](http://naivestoked.github.io/files/calculus_reviewoftrig.pdf); students who come from less quantitative backgrounds or think they would benefit from a refresher in precalculus are encouraged to pick up a free digital version of [APEX Pre-calculus](https://drive.google.com/open?id=12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY), glance over an online pre-calculus course (such as [Khan Academy's](https://www.khanacademy.org/math/precalculus) or [edX](https://www.edx.org/course/precalculus) before or at the beginning of the course, and ask for instructor's feedback on their problem-solving skills. This will allow each student to gauge their specific needs, and make sure all students are up to speed by the first few lectures.
 
-The course includes a brief review of [review of pre-calculus](http://faesmath.github.io/files/diagnostic_tests.pdf) topics like [algebra](https://stewartcalculus.com/data/BIOCALCULUS_CPS/upfiles/bio_reviewofalgebra.pdf),<!-- https://stewartcalculus.com/data/CALCULUS_8E/upfiles/6e_reviewofalgebra.pdf --> [analytic geometry](https://stewartcalculus.com/data/BIOCALCULUS_CPS/upfiles/bio_reviewofanalgeom.pdf)  <!-- https://stewartcalculus.com/data/CALCULUS_8E/upfiles/6e_reviewofanalgeom.pdf-->, and [trigonometric functions](http://faesmath.github.io/files/calculus_reviewoftrig.pdf).
-Students who think they would benefit from a refresher are encouraged to take a foundations and precalculus course.
+The course then enters the territory of classic "Calculus I", as offered in many parts of the world to students who do not have previous exposure to the topic. It starts from single-variable functions [ i.e. \\(y =f(x) \\) ] to define concepts related to the infinite and infinitesimal, like limits when variables tend to zero or infinity, instantaneous rates of change (derivatives), and areas under a curve (integrals).
+These ideas appear often in nature, and these examples will be used to motivate and conceptualize core concepts in calculus.
 
-<!-- students who come from less quantitative backgrounds or think they would benefit from a refresher in precalculus are encouraged to pick up a free digital version of [APEX Pre-calculus](https://drive.google.com/open?id=12b2cwH7afXhsYSDb-QCWKmFK2QCq7UfY), glance over an online pre-calculus course (such as [Khan Academy's](https://www.khanacademy.org/math/precalculus) or [edX](https://www.edx.org/course/precalculus) before or at the beginning of the course -->
+A textbook covering the standard topics of single variable calculus is required for this course. The adopted textbook is [APEX Calculus](http://www.apexcalculus.com/), which is an open textbook with a free digital version and [affordable hard copies](http://www.apexcalculus.com/purchase). The Calculus I sequence is quite standard, so any calculus book may be used as long as it covers all topics in the syllabus.
+[Biocalculus](https://www.cengage.com/c/biocalculus-calculus-probability-and-statistics-for-the-life-sciences-1e-stewart/9781305114036/) by James Stewart and Troy Day and [Calculus](https://www.cengage.com/c/calculus-8e-stewart/) by James Stewart have been used in previous semesters - any edition of the latter, from the 6th on, will cover the topics in this course (earlier editions probably do as well, but I haven't checked).
 
-The course then quickly leaps into the mathematics of infinity and beyond: infinitesimal quantities, differentials, infinite sequences, and whether it is possible to divide by zero.
-
-Practical applications of Calculus in research will be emphasized, especially mathematical modeling of biological systems: Ordinary Differential Equation (ODE) models, optimization, population dynamics (e.g. epidemiological) and equilibria, phase plots analysis, among others.
-
-
-**Prerequisites**
-A pre-calculus course (half-semester or equivalent) is recommended, but not required. Knowledge of trigonometry, basic algebra, and basic graphing is required (but a brief review is part of the course).
-
-Learning Objectives:
-
-- Understand the concept of functions, their limits, and continuity
-- Become familiar with differentiation and integration techniques of single-variable functions
-- Introduce applications of calculus to scientific research
+Here you can find a typical course [syllabus](http://naivestoked.github.io/files/FAES_MATH127_FALL2019_syllabus.pdf) (may not be the most up to date).

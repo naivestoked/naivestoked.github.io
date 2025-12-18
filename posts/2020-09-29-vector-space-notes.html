@@ -44,8 +44,7 @@
           <li><div class="dropdown">
           <button class="dropbtn"><a href="../login.html">login</a></button>
           <div class="dropdown-content">
-          <a href="https://faes.instructure.com/login/canvas">Canvas</a>
-          <a href="https://https://education.faes.org/portal/logon.do?method=load">FAES</a>
+          <a href="#">Canvas</a>
           </div>
         </div></li>
         </ul>
@@ -59,10 +58,12 @@
     </section>
     <section>
         <p>Representing a point in the \(xy\) plane or in space is quite intuitive: we measure a distance along each of the axes and trace dashed lines parallel to them to find it. When learning linear algebra the idea of a vector space may seem more abstract, but if we think in terms of the <a href="https://mathworld.wolfram.com/StandardBasis.html">natural basis</a> vectors (\( \mathbf{\hat{i}}, \mathbf{\hat{j}}, \mathbf{\hat{k}} \)) the picture is very similar: just stretch each vector as as far as needed, again trace dashed lines parallel to the vectors and join them at the coordinate of the point (Figure 1). Seems like a trivial change, and it is, but it helps illustrate what a matrix-encoded linear system is describing.</p>
-<p><img src="../images/axesvectors1.jpg" class="textwidth"> <strong>Figure 1</strong> Representation of a coordinate/vector in cartersian space and in a space defined by standard basis vectors</p>
+<p><img src="../images/axesvectors1.jpg" class="textwidth">
+<strong>Figure 1</strong> Representation of a coordinate/vector in cartersian space and in a space defined by standard basis vectors</p>
 <p>The <em>column space</em> of a matrix \(C(A) \) is defined as <em>all linear combinations of the columns</em> of a matrix (<a href="http://math.mit.edu/~gs/linearalgeStrangbra/">Strang</a>), that is \(A \mathbf{x} \) and it follows the same logic, so if we want to represent a vector \(\mathbf{b} \), what we need to do is stretch the columns of the matrix by some coefficients \( x_i \) and that will be its representation. That is not as intuitive as using the standard basis, that is why it requires solving the system by elimination (or other equivalent method, like finding the inverse) to determined what the coordinates \(  \) are, but the principle is the same.</p>
-<p><img src="../images/axesvectors2.jpg" class="textwidth"> <strong>Figure 2</strong> Representation of matrix columns as vectors in space and vector \(\mathbf{b} = A \mathbf{x} \)</p>
-<p>So a good way of visualizing the column space is thinking first of the columns of the matrix as vectors in the space, and then thinking what subspace these columns describe, or how (or if) they can combine to form \( \mathbf{b} \) (or not, if it happens not to be inside the column space, i.e. \( A \mathbf{x} = \mathbf{b} \) does not have a solution).</p>
+<p><img src="../images/axesvectors2.jpg" class="textwidth">
+<strong>Figure 2</strong> Representation of matrix columns as vectors in space and vector \(\mathbf{b} = A \mathbf{x} \)</p>
+<p>So a good way of visualizing the column space is thinking first of the columns of the matrix as vectors in the space, and then thinking what subspace these columns describe, or how (or if) they can combine to form \( \mathbf{b} \) (or not, if it happens not to be inside the column space, i.e. \( A \mathbf{x} = \mathbf{b} \) does not have a solution).</p>
 
         <code>
         
@@ -82,7 +83,7 @@
             <li><a href="https://faes.instructure.com/">
               <img src="../images/cv.png" alt="canvas" style="width:42px;height:42px;border:0;">
             </a></li>
-            <li><a rel="me" href="https://mathstodon.xyz/@faesmath">
+            <li><a rel="me" href="https://mathstodon.xyz/@naivestoked">
               <img src="../images/mt.png" alt="mastodon" style="width:42px;height:42px;border:0;">
             </a></li>
             <li><a href="https://math.stackexchange.com">
@@ -91,7 +92,7 @@
         </ul>
 
           <p>
-          <i>This page is licensed under <a href="https://faesmath.github.io/LICENSE.md">GNU General Public License version 3</a></i>
+          <i>This page is licensed under <a href="https://naivestoked.github.io/LICENSE.md">GNU General Public License version 3</a></i>
           </p>
           <p>
           <i>created with</i> <a href="http://jaspervdj.be/hakyll">Hakyll</a>

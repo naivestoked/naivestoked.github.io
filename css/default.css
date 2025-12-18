@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/faesmath-wide.png);
+    background-image: url(../images/naivestoked-wide.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 1300px 230px;
@@ -55,7 +55,7 @@ p {
     text-align: justify;
     font-size: 15pt;
     line-height: 24pt;
-    font-family: Georgia, "Big Caslon", "Book Antiqua", "Palatino Linotype", serif /* Garamond, "Hoefler Text" */
+    font-family: Georgia, "Big Caslon", "Book Antiqua", "Palatino Linotype", serif; /* Garamond, "Hoefler Text" */
     color: #333;
 }
 
